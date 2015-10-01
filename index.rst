@@ -9,20 +9,12 @@ Welcome to REST API Documentation's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-  intro
-  authentication
-  unique-ids
-  api-versioning
-  field-formats
-  resources/index
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   intro
+   authentication
+   unique-ids
+   api-versioning
+   field-formats
+   resources/index
 

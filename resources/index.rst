@@ -16,11 +16,12 @@ Resource object definitions
 ---------------------------
 
 The API returns resource objects (in JSON format), either individually, or in lists
-depending on the API call made. The following list of object types are defined for the API.
+depending on the API call made. The following list of object types are defined for the 
+API.
 
 .. toctree::
    :maxdepth: 2
 
-  projects
-  taxon-observations
-  annotations
+   project
+   taxon-observation
+   annotation
