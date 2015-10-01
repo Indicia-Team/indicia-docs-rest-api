@@ -18,8 +18,8 @@ iRecord can access this project.
 Request fields
 ^^^^^^^^^^^^^^
 
-  * page
-  * page_size
+  * page_size - number of records to return in the page.
+  * page - index of the page to return, default 1.
 
 Response status codes
 ^^^^^^^^^^^^^^^^^^^^^

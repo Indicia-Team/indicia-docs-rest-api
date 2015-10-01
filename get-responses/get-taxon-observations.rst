@@ -15,6 +15,7 @@ minimum include the unique identifier for the record plus a flag “Deleted=t”
 
 Request fields
 ^^^^^^^^^^^^^^
+
 Fields marked with a * are mandatory.
 
   * proj_id* - ID of the project whose records are being requested.
@@ -36,8 +37,8 @@ Response status codes
 Response
 ^^^^^^^^
 
-A successful request receives a list of projects in JSON format, using the :doc:`GET 
-response template<index>` and the :doc:`taxon-observation resource 
+A successful request receives a list of taxon-observations in JSON format, using the
+:doc:`GET response template<index>` and the :doc:`taxon-observation resource
 format<../resources/taxon-observation>`.
 
 .. note::
