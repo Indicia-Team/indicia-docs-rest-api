@@ -15,6 +15,7 @@ Contents:
   authentication
   unique-ids
   api-versioning
+  field-formats
 
 
 Indices and tables
