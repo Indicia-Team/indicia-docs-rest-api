@@ -10,9 +10,10 @@ returned.
 Request fields
 ^^^^^^^^^^^^^^
 
-The following fields are mandatory:
+Fields marked with a * are mandatory.
 
-  * edited_date_from - format yyyy-mm-dd
+  * proj_id* - the ID of the project whose annotations are being requested.
+  * edited_date_from* - format yyyy-mm-dd
   * edited_date_to - format yyyy-mm-dd 
   * page_size - number of records to return in the page.
   * page - index of the page to return, default 1.
