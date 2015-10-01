@@ -16,7 +16,7 @@ format, a lasteditdate field is required.
   inconsistently cased throughout the spec.
 
 Taxon observations contain the following properties. Properties marked with a * are 
-mandatory, those marked *? are conditionally mandatory.
+mandatory though check the property description for rules relating to the specific field.
 
   * id* - The unique identifier of the observation
   * href* - link to the observation’s URI. This can be omitted if the API implementation
@@ -41,12 +41,12 @@ mandatory, those marked *? are conditionally mandatory.
     definition of how date types are defined.
   * SiteKey - a unique ID for the site if available.
   * SiteName - the name of the site provided with the record.
-  * GridReference *? - the grid reference notation for the record. Mandatory unless east 
+  * GridReference* - the grid reference notation for the record. Mandatory unless east 
     and north are provided. British National Grid or Irish Grid notation depending on
     projection.
-  * East *? - position of record in east/west direction. Mandatory unless gridreference is
+  * East* - position of record in east/west direction. Mandatory unless gridreference is
     provided. Either a decimal longitude or easting.
-  * North *? - position of record in north/south direction. Mandatory unless gridreference 
+  * North* - position of record in north/south direction. Mandatory unless gridreference 
     is provided. Either a decimal latitude or northing.
   * Projection* - indiciates the projection used for gridreference, east and north fields.
     Can be:
