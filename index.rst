@@ -13,6 +13,8 @@ Contents:
 
   intro
   authentication
+  unique-ids
+  api-versioning
 
 
 Indices and tables
