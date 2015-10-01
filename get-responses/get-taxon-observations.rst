@@ -39,3 +39,10 @@ Response
 A successful request receives a list of projects in JSON format, using the :doc:`GET 
 response template<index>` and the :doc:`taxon-observation resource 
 format<../resources/taxon-observation>`.
+
+.. note::
+
+  The server is responsible for ensuring that the default sort order of any taxon
+  observations returned is stable and not affected by edits happening whilst the client
+  pages through the dataset. For example, a sort by creation timestamp or record ID (if
+  sequentially generated) would be appropriate.
