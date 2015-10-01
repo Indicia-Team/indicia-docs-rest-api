@@ -1,0 +1,2 @@
+GET /taxon-observations
+-----------------------

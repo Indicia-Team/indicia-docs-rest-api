@@ -17,4 +17,5 @@ Contents:
    api-versioning
    field-formats
    resources/index
+   get-responses/index
 
