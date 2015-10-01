@@ -16,6 +16,7 @@ Contents:
   unique-ids
   api-versioning
   field-formats
+  resources/index
 
 
 Indices and tables
