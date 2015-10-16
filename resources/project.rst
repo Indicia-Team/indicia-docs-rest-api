@@ -12,8 +12,8 @@ Projects contain the following fields (fields marked with a * are mandatory):
     taxon-observations and annotations from within this project.
   * href* - provides a link back to the resource API endpoint describing the individual 
     project.
-  * Title* - project title.
-  * Description* - a description of the project.
+  * title* - project title.
+  * description* - a description of the project.
 
 An example project object is:
 
@@ -22,7 +22,7 @@ An example project object is:
   {
     "id":"BTO12",
     "href":"http://www.bto.org/rest/projects/BTO12",
-    "Title":"BTO Odonata",
-    "Description":"Odonata records for verification on iRecord"
+    "title":"BTO Odonata",
+    "description":"Odonata records for verification on iRecord"
   }
 
