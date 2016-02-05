@@ -19,9 +19,11 @@ Request fields
 Fields marked with a * are mandatory.
 
   * proj_id* - ID of the project whose records are being requested.
-  * edited_date_from* - mandatory, retrieves records entered or edited since this date. 
-    Format yyyy-mm-dd.
-  * edited_date_to - format yyyy-mm-dd
+  * edited_date_from* - format yyyy-mm-dd or ISO 8601 yyyy-mm-ddThh:mm:ss. Limits to 
+    records created or updated on or after this date.
+  * edited_date_to - format yyyy-mm-dd or ISO 8601 yyyy-mm-ddThh:mm:ss. Limits to 
+    records created or updated on or before this date.
+  * edited_date_to - format yyyy-m
   * page_size - number of records to return in the page.
   * page - index of the page to return, default 1.
 
