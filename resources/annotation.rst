@@ -33,6 +33,7 @@ Annotations contain the following fields (fields marked with a * are mandatory):
     question that needs answering.
   * authorName* - name of the comment author.
   * dateTime* - ISO 8601 date format for the timestamp of the annotation.
+  * lastEditDate - returns the date and time time of last edit.
 
 An example annotation object is:
 
@@ -52,5 +53,6 @@ An example annotation object is:
     "emailAddress":"example@example.com",
     "question":"f",
     "authorName":"John Smith",
-    "dateTime":"2014-02-01T09:00:22+05:00" 
+    "dateTime":"2014-02-01T09:00:22+05:00",
+    "lastEditDate":"2014-02-01T09:00:22+05:00"
   }
