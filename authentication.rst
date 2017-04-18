@@ -11,10 +11,8 @@ API. In particular, the mechanism must be:
 Login/session based approaches are not stateless and therefore not truly RESTful, so 
 authentication data must be presented with every request. 
 
-In order to achieve the requirements a protocol based on the notes at 
-http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication has
-been adopted:
-
+In order to achieve the requirements a protocol based the standard method of using an
+HMAC (keyed-hash message authentication code) has been implemented:
   #. The requesting entity creates a HMAC-SHA1 value of the complete request url 
      (including parameters). The hash value uses the user password as the shared secret.
   #. The requesting entity adds an Authorization header to the request containing the
