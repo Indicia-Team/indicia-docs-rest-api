@@ -16,14 +16,13 @@ minimum include the unique identifier for the record plus a flag “Deleted=t”
 Request fields
 ^^^^^^^^^^^^^^
 
-Fields marked with a * are mandatory.
+Fields marked with a * are mandatory so must be included in the request.
 
   * proj_id* - ID of the project whose records are being requested.
-  * edited_date_from* - format yyyy-mm-dd or ISO 8601 yyyy-mm-ddThh:mm:ss. Limits to 
+  * edited_date_from* - format yyyy-mm-dd or ISO 8601 yyyy-mm-ddThh:mm:ss. Limits to
     records created or updated on or after this date.
-  * edited_date_to - format yyyy-mm-dd or ISO 8601 yyyy-mm-ddThh:mm:ss. Limits to 
+  * edited_date_to - format yyyy-mm-dd or ISO 8601 yyyy-mm-ddThh:mm:ss. Limits to
     records created or updated on or before this date.
-  * edited_date_to - format yyyy-m
   * page_size - number of records to return in the page.
   * page - index of the page to return, default 1.
 
@@ -35,7 +34,7 @@ Response status codes
   * 200 - Success
   * 400 - Bad request (Invalid parameters)
   * 401 - unauthorized
-  
+
 Response
 ^^^^^^^^
 
